@@ -1,0 +1,64 @@
+body{
+  background-color: aqua;
+ } 
+  .box {
+    width: 30%; 
+    padding: 40px; 
+    border: 2px solid #333;
+    margin: 10px; 
+    box-sizing: border-box; 
+    text-align: center; 
+  
+  }
+  .meta {
+    height: 40%;
+    padding: 80px; 
+    border: 2px solid #333; 
+     box-sizing: border-box;
+    text-align: center; 
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: (100vh - 250px); 
+    margin-bottom: 0; 
+  }
+  .pic {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 200px; 
+    margin-top: 0; 
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .body {
+    background-color: aqua;
+  }
+  nav {
+    display: flex;
+}
+  nav a { 
+    margin-left: 20px; 
+  }
+
+  .category-heading {
+ text-align: center;
+    margin: 20px;
+    font-size: 20 px; 
+    color: black;
+}
+.para{
+   text-align: center;
+    margin: 20px;
+    font-size: 20 px; 
+    color: black;
+}
+          
+          
+          
